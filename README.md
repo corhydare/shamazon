@@ -1,0 +1,2 @@
+# shamazon
+blogs from  techs

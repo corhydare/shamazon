@@ -1,35 +1,38 @@
+<!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fund My Project!</title>
-  <link rel="stylesheet" href="/css/jass.css">
-  <link rel="stylesheet" href="/css/style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <link href="../img/favicon.ico" rel="icon" type="image/x-icon" />
+        <title>Shamazon</title>
+        <link rel="stylesheet" href="../../css/style.css">
+    </head>
 
-<body>
-  
-        {{#if logged_in}}
-        <a href="/profile">profile</a> |
-        <button class="no-button" id="logout">logout</button>
-        {{else}}
-        <a href="/login">login</a>
-        {{/if}}
-      </nav>
-    </header>
-    <main class="container container-fluid mt-5">
-      <!-- Render the sub layout -->
-      {{{ body }}}
-    </main>
-    <footer>
-      
-    </footer>
-  </div>
+    <body>
+        <div class="wrapper">
+            <h1>
+                <a href="/">Shamazon Blog</a>
+            </h1>
+            <nav>
+                <a href="/">Home</a>
+                {{#if loggedIn}}
+                <a href="/dashboard">Dashboard</a>
+                <button id="logout">Logout</button>
+                {{else}}
+                <a href="/login">Login</a>
+                {{/if}}
+            </nav>
+            
+        </div>
 
-  {{#if logged_in}}
-  <script src="../assets/scripts/logout.js"></script>
-  {{/if}}
-</body>
+        <main>
+            {{{ body }}}
+        </main>
+      {{#if loggedIn}}
+      <script src="../../assets/scripts/logout.js"></script>
+      {{/if}}
+    </body>
 
 </html>

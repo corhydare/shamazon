@@ -20,7 +20,7 @@ const newFormHandler = async (event) => {
   if (response.ok) {
     document.location.replace("/dashboard");
   } else {
-    document.location.replace("/single-post");
+    document.location.replace("/postage");
   }
 };
 

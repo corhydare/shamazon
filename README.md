@@ -30,7 +30,7 @@ use like a normal forum for your nonesense
 
 #### Screenshot
 
-![screenshot](./img/screen.png)
+![screenshot](./public/img/screen.png)
 
 #### Video
 

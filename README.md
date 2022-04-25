@@ -27,10 +27,10 @@ run npm install for all modules through the terminal, unless the app is running 
 ```
 use like a normal forum for your nonesense
 ```
-
+Deployed @: https://shamazonblog.herokuapp.com/
 #### Screenshot
 
-![screenshot](./img/screen.PNG)
+![screenshot](./public/img/screen.png)
 
 #### Video
 

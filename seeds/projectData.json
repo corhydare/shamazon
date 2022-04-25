@@ -1,0 +1,18 @@
+[
+    {
+      "name": "Cardiac Arrest",
+      "description": "Find your hills",
+      "needed_funding": 20
+    },
+    {
+      "name": "Asking questions",
+      "description": "Quesatilla",
+      "needed_funding": 10
+    },
+    {
+      "name": "Pastries",
+      "description": "Dumplings",
+      "needed_funding": 30
+    }
+  ]
+  

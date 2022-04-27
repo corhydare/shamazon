@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "```    Tech blog for shamazon employees   ```",
   "main": "index.js",
+  
   "dependencies": {
     "abbrev": "^1.1.1",
     "agent-base": "^6.0.2",
@@ -190,7 +191,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "seed": "node seeds/seed.js"
   },
   "repository": {
     "type": "git",
